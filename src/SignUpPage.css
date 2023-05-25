@@ -1,0 +1,48 @@
+/* SignUpPage.css */
+.signup-container .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .signup-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: -28%;
+  }
+  
+  .signup-container input[type='text'],
+  .signup-container input[type='password'] {
+    width: 150%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: -28%;
+  }
+  
+  .signup-container .signup-button {
+    display: block;
+    width: 160%;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: -28%;
+    margin-bottom: -15px; /* 수정: px 값 추가 */
+    box-sizing: border-box;
+  }
+  
+  .signup-container .signup-button:hover {
+    background-color: black;
+  }
+  

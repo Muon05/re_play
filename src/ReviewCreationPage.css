@@ -1,0 +1,62 @@
+
+/* ReviewCreationPage.css */
+
+.review-container .review-form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.review-container .review-form-field {
+  margin-bottom: 20px;
+}
+
+.review-container .review-form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: -43%;
+}
+
+.review-container .review-form-input {
+  width: 180%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: -43%;
+}
+
+.review-container .review-form-textarea {
+  width: 180%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  margin-left: -43%;
+
+}
+
+.review-container .review-form-submit-button {
+  margin-top: 10%;
+  display: block;
+  margin-top: 10;
+  width: 187%;
+  margin-left: -43%;
+  padding: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.review-container .review-form-submit-button:hover {
+  background-color: black
+}

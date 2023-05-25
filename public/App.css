@@ -1,0 +1,117 @@
+/* App.css */
+
+/* 전체 컨테이너 스타일 */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* 액자 스타일 */
+.frame {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 메뉴 스타일 */
+.menu {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 메뉴 링크 스타일 */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
+/* 메인 컨텐츠 스타일 */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+/* 추가된 스타일 */
+.community-content,
+.review-content {
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* 추가된 스타일 */
+/* 초기 홈페이지 로드 시 메인 페이지가 보이도록 설정 */
+.main-content > div:not(:first-child) {
+  display: none;
+}
+
+/* 추가된 스타일 */
+/* 각 게시판 제목 정렬과 글 작성 버튼 */
+.board-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.board-title h2 {
+  margin: 0;
+}
+
+.board-title .write-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* 추가된 스타일 */
+/* 페이지 네비게이션 */
+.page-navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-navigation button {
+  margin: 0 5px;
+}
+
+.page-navigation .current-page {
+  font-weight: bold;
+}
