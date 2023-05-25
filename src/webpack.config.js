@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-  // 기존의 웹팩 설정 옵션들...
 
   resolve: {
     fallback: {
@@ -20,5 +19,4 @@ module.exports = {
     __dirname: 'mock',
   },
 
-  // 기존의 웹팩 설정 옵션들...
 };
