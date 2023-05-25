@@ -1,14 +1,14 @@
-/* App.js */
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import MainPage from '../src/MainPage';
-import LoginPage from '../src/LoginPage';
-import CommunityPage from '../src/CommunityPage';
-import ReviewPage from '../src/ReviewPage';
+import MainPage from './MainPage';
+import LoginPage from './LoginPage';
+import CommunityPage from './CommunityPage';
+import ReviewPage from './ReviewPage';
 import './App.css';
-import SignUpPage from '../src/SignUpPage';
-import ReviewCreationPage from '../src/ReviewCreationPage';
-import CommunityCreationPage from '../src/CommunityCreationPage';
+import SignUpPage from './SignUpPage';
+import ReviewCreationPage from './ReviewCreationPage';
+import CommunityCreationPage from './CommunityCreationPage';
 
 const App = () => {
   return (
