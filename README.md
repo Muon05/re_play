@@ -47,3 +47,7 @@ review와 community는 ID, title, nickname, time을 받도록 해두었으며, I
 구현에 실패한 server 연결을 최우선으로 할 예정입니다.
 
 이외에 추가로 구현하고 싶은 내용은, kakao map OpenApi를 가져와 사용자가 거점을 설정해 취미를 함께 즐길 사람을 찾는 글을 올리거나, 지도에 리스트업 되어있는 취미 목록을 확인할 수 있게 하고 싶습니다.
+
+### `기능 영상`
+
+https://drive.google.com/file/d/1GVjy1S5sO14EcctcapASE4D7DYWFSwb-/view?usp=sharing
